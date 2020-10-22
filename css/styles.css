@@ -1,0 +1,18 @@
+.fade__in {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Cousine;
+    color: #0000ff;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
